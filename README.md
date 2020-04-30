@@ -4,7 +4,7 @@ A product discovery tool by [Colorful Dots, LLC](https://colorfuldots.com)
 
 ### Demo
 
-[Product Discovery Tool Demo](https://soon.now.sh)
+[Product Discovery Tool Demo](https://product-discovery-initiative.now.sh)
 
 ### Screenshot
 
