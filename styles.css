@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125rem;
+}
+a:link {
+  color: #673fb4;
+}
+a:visited {
+  color: #673fb4;
+}
+a:hover {
+  color: #673fb4;
+  text-decoration: underline;
+}
+a:active {
+  color: #673fb4;
+}
+label {
+  width: 100%;
+  padding: 5px 0px;
+}
+input {
+  width: 100%;
+  padding: 5px 0px;
+  border-bottom: 1px solid rgba(103, 58, 183, 0.2);
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+}
+textarea {
+  font-size: 0.85rem;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 5px 0px;
+  border-top: 0px solid rgba(103, 58, 183, 0.2);
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  border-radius: 0.25rem;
+  background-color: inherit;
+}
+input:focus {
+  outline: none !important;
+  border-color: #673fb4;
+  box-shadow: 0 0 1px #673fb4;
+  background-color: #f8f4ff;
+}
+textarea:focus {
+  outline: none !important;
+  border-color: inherit;
+  box-shadow: 0 0 1px inherit;
+  background-color: inherit;
+}
+textarea {
+  resize: both;
+  min-height: 150px;
+  font-size: 1.125rem;
+}
+textarea.vert {
+  resize: vertical;
+}
+textarea.noResize {
+  resize: none;
+}
+.card-title {
+  font-size: 1.1rem;
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(103, 58, 183, 0.2);
+  border-radius: 0.25rem;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+.btn-purple {
+  border: 1px solid rgba(103, 58, 183, 0.2);
+}
+
+.btn-outline-primary {
+  color: #673fb4;
+  border: 1px solid rgba(103, 58, 183, 0.2);
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #673fb4;
+  border: 1px solid rgba(103, 58, 183, 0.2);
+}
+.btn-outline-primary.focus,
+.btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(103, 58, 183, 0.2);
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(103, 58, 183, 0.2);
+}
+footer p {
+  font-size: 14px;
+  color: #8e99a8;
+}
